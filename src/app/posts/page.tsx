@@ -1,12 +1,13 @@
 import PostsList from "@/components/posts-list";
 import { Suspense } from "react";
 
-export default async function PostsPage({
+export default async function Posts({
   searchParams,
 }: {
-  searchParams: { page?: string };
+  searchParams: Promise<{ page?: string }>;
 }) {
-  const currentPage = parseInt(searchParams.page || "1", 10);
+  const { page } = await searchParams;
+  const currentPage = parseInt(page || "1", 10);
 
   return (
     <main className="text-center pt-16 px-5">

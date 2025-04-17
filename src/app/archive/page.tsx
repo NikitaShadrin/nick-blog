@@ -1,7 +1,7 @@
 import PostsList from "@/components/posts-list";
 import { Suspense } from "react";
 
-export default async function Posts() {
+export default async function Archive() {
   return (
     <main className="text-center pt-16 px-5">
       <h1 className="text-4xl md:text-5xl font-bold mb-6">All posts</h1>

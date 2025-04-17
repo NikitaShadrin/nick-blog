@@ -5,10 +5,11 @@ export default function Home() {
         Welcome to my blog
       </h1>
       <p className="max-w-[750px] mx-auto leading-8 ">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit cum a
-        repellendus deserunt, eum ipsum dolore recusandae beatae reprehenderit
-        alias possimus porro odit cumque ut adipisci veniam modi! Adipisci,
-        fuga.
+        Hey there! Thanks for stopping by. This is my little corner of the
+        internet where I share thoughts, stories, and things I&#39;m passionate
+        about. Largely focusing on my journy and learning experiences with
+        software engineering. Feel free to explore, and I hope you find
+        something here that resonates with you.
       </p>
     </main>
   );

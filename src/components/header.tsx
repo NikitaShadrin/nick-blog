@@ -8,6 +8,7 @@ import { SignedIn, SignedOut, UserButton, SignInButton } from "@clerk/nextjs";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/posts", label: "Posts" },
+  { href: "/archive", label: "Archive" },
 ];
 
 export default function Header() {

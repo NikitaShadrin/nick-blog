@@ -18,7 +18,7 @@ export default async function Post(params: { id: string }) {
       <h1 className="text-5xl font-semibold mb-7">{post.title}</h1>
       <div
         className="post-content max-w-[700px] mx-auto"
-        dangerouslySetInnerHTML={{ __html: post.body }}
+        dangerouslySetInnerHTML={{ __html: String(post.body) }}
       ></div>
     </div>
   );

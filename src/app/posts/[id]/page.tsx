@@ -1,7 +1,7 @@
 import Post from "@/components/post";
 import { Suspense } from "react";
 import { auth } from "@clerk/nextjs/server";
-import { deletePostAction } from "@/actions/actions"; // Updated import
+import { deletePostAction } from "@/actions/actions";
 
 export default async function page({
   params,

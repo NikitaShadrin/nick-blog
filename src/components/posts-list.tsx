@@ -51,7 +51,7 @@ export default async function PostsList({
                 >
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: post.body,
+                      __html: String(post.body),
                     }}
                   />
                   <div

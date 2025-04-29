@@ -31,3 +31,62 @@ body::before {
   pointer-events: none;
   z-index: -1;
 }
+
+/* Text Editor */
+.richtext-editor {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.toolbar {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.toolbar-group {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.divider {
+  width: 1px;
+  background-color: #ccc;
+  margin: 0 0.5rem;
+}
+
+.editor-content {
+  min-height: 200px;
+  outline: none;
+}
+
+.editor-content p {
+  margin: 0 0 1rem 0;
+}
+
+.editor-content h1 {
+  font-size: 2em;
+  margin: 0 0 1rem 0;
+}
+
+.editor-content h2 {
+  font-size: 1.5em;
+  margin: 0 0 1rem 0;
+}
+
+.post-content p {
+  margin: 0 0 1rem 0;
+}
+
+.post-content h1 {
+  font-size: 2em;
+  margin: 0 0 1rem 0;
+}
+.post-content h2 {
+  font-size: 1.5em;
+  margin: 0 0 1rem 0;
+}

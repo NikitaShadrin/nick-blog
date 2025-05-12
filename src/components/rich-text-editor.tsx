@@ -37,7 +37,8 @@ const RichTextEditor = ({ initialContent = "" }: RichTextEditorProps) => {
     ],
     content: isClient.current ? initialContent : "",
     onUpdate: ({ editor }) => {
-      const html = editor.getHTML();
+      let html = editor.getHTML();
+      html = html.replace(/"/g, "&quot;");
       setContent(html);
       editorContentRef.current = html;
     },

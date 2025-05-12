@@ -1,6 +1,8 @@
 import PostsList from "@/components/posts-list";
 import { Suspense } from "react";
 
+export const dynamic = "force-dynamic";
+
 export default async function Archive() {
   return (
     <main className="text-center pt-16 px-5">
